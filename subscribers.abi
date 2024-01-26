@@ -1541,8 +1541,44 @@
     "type": "function"
   },
   {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "addr",
+        "type": "address"
+      },
+      {
+        "internalType": "bool",
+        "name": "forContract",
+        "type": "bool"
+      }
+    ],
+    "name": "renewSubscriptionFor",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
     "inputs": [],
     "name": "renounceOwnership",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "addr",
+        "type": "address"
+      },
+      {
+        "internalType": "bool",
+        "name": "forContract",
+        "type": "bool"
+      }
+    ],
+    "name": "resetSubscriptionCapsFor",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
