@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [],
+    "name": "version",
+    "outputs": [
+      {
+        "internalType": "bytes3",
+        "name": "",
+        "type": "bytes3"
+      }
+    ],
+    "stateMutability": "pure",
+    "type": "function"
+  }
+]
